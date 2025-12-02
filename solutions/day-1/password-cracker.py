@@ -4,7 +4,7 @@ sys.path.append(str(Path(__file__).parent.parent.parent))
 from parser import get_input
 
 example_case = ['L68', 'L30', 'R48', 'L5', 'R60', 'L55', 'L1', 'L99', 'R14', 'L82']
-input = get_input("day-1.txt")
+input = get_input("day-1.txt", "\n")
 
 # range = [0, 99]
 start = 50
