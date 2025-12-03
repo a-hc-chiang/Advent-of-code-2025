@@ -27,4 +27,4 @@ for turn in input:
       start -= value
   if start == MAX: 
     res += 1
-print(res)
+print(res) #YIPPEE ACCEPTED!

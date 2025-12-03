@@ -8,11 +8,13 @@ input = get_input("day-1.txt", "\n")
 
 # range = [0, 99]
 start = 50
-MIN = 0
+MIN = 1
 MAX = 99
 res = 0
 
-for turn in input:
+for turn in example_case:
+  if start == 0:
+    res += 1
   direction = turn[0]
   num = int(turn[1:])
   res += abs(num) // 100
