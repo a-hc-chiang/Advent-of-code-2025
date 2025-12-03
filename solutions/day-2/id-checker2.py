@@ -38,4 +38,4 @@ for ids in input:
         res.add(int(as_str))
         break
 # print(res)
-print(sum(res))
+print(sum(res)) #YIPPEE ACCEPTED!
