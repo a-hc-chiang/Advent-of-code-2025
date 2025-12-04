@@ -31,4 +31,4 @@ for battery_row in input:
     break
   res.append(curr_max)
 # print(res)
-print(sum(res)) # YIPPE ACCEPTED!
+print(sum(res)) # YIPPEE ACCEPTED!
