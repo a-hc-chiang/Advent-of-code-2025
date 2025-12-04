@@ -7,6 +7,7 @@ I'm just trying to do as much as possible because exam szn is around the corner 
 Completed w/ working solutions: 
 - day 1 part 1
 - day 2 part 1 + 2 
+- day 3 part 1
 
 Still stuck on: 
 - day 1 part 2 
