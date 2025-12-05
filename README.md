@@ -11,3 +11,4 @@ Completed w/ working solutions:
 
 Still stuck on: 
 - day 1 part 2 
+- day 3 part 2 
