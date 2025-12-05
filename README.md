@@ -8,6 +8,7 @@ Completed w/ working solutions:
 - day 1 part 1
 - day 2 part 1 + 2 
 - day 3 part 1
+- day 4 part 1 + 2
 
 Still stuck on: 
 - day 1 part 2 
