@@ -12,6 +12,7 @@ Completed w/ working solutions:
 - day 3 part 1
 - day 4 part 1 + 2
 - day 5 part 1 + 2
+- day 6 part 1
 
 Still stuck on: 
 - day 3 part 2 
