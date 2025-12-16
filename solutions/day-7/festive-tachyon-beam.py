@@ -36,9 +36,9 @@ print(s_idx)
 beam_idx = [[s_idx]]
 
 for line in input[1:]:
-  print(beam_idx)
+  # print(beam_idx)
   if "^" not in line:
-    print("HELLO")
+    # print("HELLO")
     beam_idx.append(beam_idx[-1])
     continue
 
@@ -53,9 +53,11 @@ for line in input[1:]:
         to_add.add(i+1)
         flag2 = True
       res += 1
+    else:
+      to_add.add(i)
   beam_idx.append(list(to_add))
   
 # print(example_case)
 # print(beam_idx)
-print(res) # ANSWER TOO SMALL!!
+print(res) # YIPPEE ACCEPTED!
 # print(sum(res))
