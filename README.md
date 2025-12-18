@@ -17,3 +17,4 @@ Completed w/ working solutions:
 
 Still stuck on: 
 - day 3 part 2 
+- day 7 part 2
