@@ -14,6 +14,7 @@ Completed w/ working solutions:
 - day 5 part 1 + 2
 - day 6 part 1 + 2
 - day 7 part 1 + 2
+- day 8 part 1
 
 Still stuck on: 
 - day 3 part 2 
