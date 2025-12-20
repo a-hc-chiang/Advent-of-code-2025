@@ -18,3 +18,4 @@ Completed w/ working solutions:
 
 Still stuck on: 
 - day 3 part 2 
+- day 8 part 2 (semi-stuck atm)
