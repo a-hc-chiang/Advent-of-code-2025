@@ -6,6 +6,10 @@ import heapq
 import math
 from ordered_set import OrderedSet
 
+'''
+Had additional assistance from friend lol
+'''
+
 example_case = """162,817,812
 57,618,57
 906,360,560
@@ -53,10 +57,10 @@ def merge_groups(idx1, idx2):
 
   groups[idx2].clear()
 
-# input = get_input("day-8.txt", "\n")
+input = get_input("day-8.txt", "\n")
 nodes = {}
-for i in range(len(example_case)):
-  as_list = example_case[i].split(",")
+for i in range(len(input)):
+  as_list = input[i].split(",")
   node = (int(as_list[0]), int(as_list[1]), int(as_list[2]))
   nodes[i] = node
 
@@ -67,8 +71,8 @@ for i in range(len(nodes)-1):
   for j in range(i+1, len(nodes)): 
     distance = find_distance(nodes[i], nodes[j])
     adj_list.append((distance, i, j))
-# print(adj_list)
 
+second_adj = adj_list
 heapq.heapify(adj_list)
 groups = []
 node_to_group = {}
@@ -77,17 +81,17 @@ visited = OrderedSet()
 dist, x, y = heapq.heappop(adj_list)
 add_new_group(x, y)
 visited.update([x, y])
+i = 0
 
-# ChatGPT 5.2 Assisted in creating the loop conditions + additional helper functions:
-while adj_list and len(visited) != len(example_case):
+while adj_list:
   dist, a, b = heapq.heappop(adj_list)
-  print(dist, a, nodes[a], b, nodes[b], visited)
   visited.update([a, b])
   g1 = node_to_group.get(a)
   g2 = node_to_group.get(b)
   
   if g1 is not None and g2 is not None:
     if g1 == g2:
+      i += 1
       continue
     merge_groups(g1, g2)
   elif g1 is not None:
@@ -96,17 +100,17 @@ while adj_list and len(visited) != len(example_case):
     add_to_group(a, g2)
   else:
     add_new_group(a, b)
+
+  flag = False
+  for g in groups:
+    # print(len(g), len(nodes))
+    if len(g) == len(nodes): 
+      flag = True
+  if flag: 
+    break
+  i += 1
+
 groups = [g for g in groups if g]
-
-print(visited)
-print(len(visited))
-
-last_node = visited[-1]
-last_node2 = visited[-2]
-
-print(nodes[last_node], nodes[last_node2])
-print(nodes[last_node][0]*nodes[last_node2][0])
-
-for k in visited: 
-  print(nodes[k])
-print(groups)
+print(a, b)
+print(nodes[a], nodes[b])
+print(nodes[a][0] * nodes[b][0]) # YIPPEE ACCEPTED 
