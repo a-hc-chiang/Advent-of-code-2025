@@ -16,6 +16,7 @@ Completed w/ working solutions:
 - day 7 part 1 + 2
 - day 8 part 1 + 2
 - day 9 part 1
+- day 11 part 1
 
 Still stuck on: 
-- nothing rn :) 
+- day 10 part 1
