@@ -9,7 +9,7 @@ Typically, I code everything myself (unless stated otherwise lol).
 Completed w/ working solutions: 
 - day 1 part 1 + 2
 - day 2 part 1 + 2 
-- day 3 part 1
+- day 3 part 1 + 2
 - day 4 part 1 + 2
 - day 5 part 1 + 2
 - day 6 part 1 + 2
@@ -17,4 +17,4 @@ Completed w/ working solutions:
 - day 8 part 1 + 2
 
 Still stuck on: 
-- day 3 part 2 
+- nothing rn :) 
