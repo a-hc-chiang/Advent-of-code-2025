@@ -1,9 +1,9 @@
 # Advent-of-code-2025
 Advent of code 2025 lol
 
-I'm just trying to do as much as possible because exam szn is around the corner :( 
-
 Typically, I code everything myself (unless stated otherwise lol).
+
+### My final score: 1325
 
 ## Progress:
 Completed w/ working solutions: 
