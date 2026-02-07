@@ -1,7 +1,7 @@
 # Advent-of-code-2025
 Advent of code 2025 lol
 
-Typically, I code everything myself (unless stated otherwise lol).
+Typically, I code everything myself (unless stated otherwise).
 
 ### My final score: 1325
 
