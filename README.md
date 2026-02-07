@@ -5,7 +5,7 @@ Typically, I code everything myself (unless stated otherwise lol).
 
 ### My final score: 1325
 
-## Progress:
+## Final results:
 Completed w/ working solutions: 
 - day 1 part 1 + 2
 - day 2 part 1 + 2 
